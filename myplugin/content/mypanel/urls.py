@@ -3,6 +3,6 @@ from django.conf.urls import url
 
 from myplugin.content.mypanel import views
 
-urlpatterns = patterns(
+urlpatterns = patterns('',
     url(r'^$', views.IndexView.as_view(), name='index'),
 )
